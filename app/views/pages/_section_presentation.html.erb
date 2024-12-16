@@ -1,32 +1,35 @@
 <div class="grid gap-6 grid-cols-1 sm:grid-cols-2">
   <div class="p-4">
     <div class="grid gap-4 grid-rows-3">
-      <div class="p-2">
-        TITRE CREATIF
+      <div class="p-2 h-auto sm:w-1 md:w-1 lg:w-1/2 wl:w-1/2 2xl:w-1/2">
+        <p>Bonjour !</p>
+        <p>Je suis Caroline Cerbelaud</p>
+        <p>Développeuse fullstack</p>
+        <p>Basée à Rennes</p>
       </div>
-      <div class="p-2">
+      <div class="p-2 h-auto">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
-          purus nec nunc tincidunt fermentum. Nullam nec purus nec nunc
-          tincidunt fermentum.
+          Après 7 années passionnantes à travailler dans les équipes Clients et Opérations de Saas, je me reconverti en développeuse pour démarrer une nouvelle carrière palpitante. Je recherche actuellement mon premier poste de développeuse.<span> Bienvenue sur mon portfolio !</span>
         </p>
       </div>
-      <div class="p-2">
+      <div class="p-2 h-auto">
         <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          <div class="p-4">
-            LOGO Linkedin
+          <div class="p-4 size-16">
+            <%= svg_tag("icons/linkedin.svg", class: "my-svg-class") %>
           </div>
-          <div class="p-4">
-            LOGO GITHUB
+          <div class="p-4 size-16">
+            <%= svg_tag("icons/github.svg", class: "my-svg-class") %>
           </div>
-          <div class="p-4">
-            LOGO NOTION CREATOR
+          <div class="p-4 size-16">
+            <%= svg_tag("icons/notion.svg", class: "my-svg-class") %>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="p-4">
-    <img src="https://images.unsplash.com/photo-1622838320000-3b3b3b3b3b3b" alt="Image de présentation" />
+  <div class="p-4 h-auto sm:w-1 md:w-1 lg:w-1/2 wl:w-1/2 2xl:w-1/2">
+    <div class="max-w-full h-auto">
+      <%= svg_tag("girl_banner.svg", class: "my-svg-class") %>
+    </div>
   </div>
 </div>
