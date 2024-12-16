@@ -1,0 +1,7 @@
+.section-title{
+  @apply text-center font-bold text-black dark:text-white text-2xl;
+}
+
+.section-title span {
+  @apply font-extrabold;
+}
