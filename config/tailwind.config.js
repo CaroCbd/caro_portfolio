@@ -21,3 +21,5 @@ module.exports = {
     require('@tailwindcss/container-queries'),
   ]
 }
+
+// La config des couleurs est ici
