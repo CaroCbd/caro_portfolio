@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* système de priorité entre les trois fichiers pour l'application des règles */
