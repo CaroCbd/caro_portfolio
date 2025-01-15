@@ -23,3 +23,15 @@ problème d'import à régler
 #title-hello {
   font-size: xx-large;
 }
+
+.my-svg-class:hover {
+  fill: white;
+}
+/*
+.my-svg-class {
+  fill: black;
+
+  @nest &:hover {
+    fill: white;
+  }
+} */
