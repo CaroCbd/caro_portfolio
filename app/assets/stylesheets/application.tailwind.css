@@ -1,37 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* système de priorité entre les trois fichiers pour l'application des règles */
-
-/* @import "components/titles";
-problème d'import à régler
-*/
-
-.title-outlined {
-  color: white;
-  text-shadow:
-    1px 0 0 black,
-    -1px 0 0 black,
-    0 1px 0 black,
-    0 -1px 0 black,
-    1px 1px 0 black,
-    -1px 1px 0 black,
-    1px -1px 0 black,
-    -1px -1px 0 black;
-}
-
-#title-hello {
-  font-size: xx-large;
-}
-
-.my-svg-class:hover {
-  fill: white;
-}
-/*
-.my-svg-class {
-  fill: black;
-
-  @nest &:hover {
-    fill: white;
-  }
-} */
